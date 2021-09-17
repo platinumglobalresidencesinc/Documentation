@@ -7,6 +7,7 @@
 | https://admin.mlsworldwide.com  |
 
 ##Auth Headers
+
 | Header Name  | Value |
 | ------------- | ------------- |
 | `Authorization`  | `Token  xxxxxxxxxxxxxxxx`  |
@@ -36,4 +37,10 @@ it's used simple limit offset pagination. Max result is 100 items per page.
 * [Update Property](properties/put.md) : `PUT /api/v1/properties/{id}/`
 * [Delete Property](properties/delete.md) : `DELETE /api/v1/properties/{id}/`
 
-## Properties Photos API
+## Property Photos API
+
+* [List Photos](property-photos/list.md) : `GET /api/v1/property-photos/`
+* [Create Photo](property-photos/post.md) : `POST /api/v1/property-photos/`
+* [Get Photo](property-photos/get.md) : `GET /api/v1/property-photos/{id}/`
+* [Update Photo](property-photos/put.md) : `PUT /api/v1/property-photos/{id}/`
+* [Delete Photo](property-photos/delete.md) : `DELETE /api/v1/property-photos/{id}/`
