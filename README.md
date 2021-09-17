@@ -6,13 +6,13 @@
 | ------------- |
 | https://admin.mlsworldwide.com  |
 
-##Auth Headers
+## Auth Headers
 
 | Header Name  | Value |
 | ------------- | ------------- |
 | `Authorization`  | `Token  xxxxxxxxxxxxxxxx`  |
 
-##Pagination
+## Pagination
 
 For some API methods you will get paginated response,
 it's used simple limit offset pagination. Max result is 100 items per page.
