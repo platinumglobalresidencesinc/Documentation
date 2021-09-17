@@ -13,6 +13,7 @@
 | `Authorization`  | `Token  xxxxxxxxxxxxxxxx`  |
 
 ##Pagination
+
 For some API methods you will get paginated response,
 it's used simple limit offset pagination. Max result is 100 items per page.
 
