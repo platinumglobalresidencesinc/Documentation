@@ -10,10 +10,10 @@
 | ------------- | ------------- | ------------- |
 | `limit`  | No  | |
 | `offset`  | No  | |
-| `agent`  | No  | |
-| `property_type`  | No  | |
-| `property_subtype`  | No  | |
-| `status`  | No  | |
+| `agent`  | No  | Agent Id |
+| `property_type`  | No  | Possible values: `Residential`, `Commercial`  |
+| `property_subtype`  | No  | Possible values: `Condo`, `Land`, `House`, `House-Multi-Family`, `Condo-Multi-Family`, `Multi-Family`, `Other`, `Office`, `Industrial`, `Retail` |
+| `status`  | No  | Possible values: `pending`, `active`, `uploading`, `inactive`, `sold` |
 
 ## Success Response
 
